@@ -1,0 +1,24 @@
+{
+  "name": "iotproject",
+  "version": "1.0.0",
+  "description": "this project gives real time weather data to users using google IoT Cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebSystemProject/IoTProject.git"
+  },
+  "author": "manohar singh rajawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebSystemProject/IoTProject/issues"
+  },
+  "homepage": "https://github.com/WebSystemProject/IoTProject#readme",
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.10.0",
+    "express": "^4.17.1"
+  }
+}
